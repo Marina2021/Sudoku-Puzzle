@@ -1,16 +1,16 @@
-.container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  grid-template: auto auto auto auto auto auto auto;
-  padding: 10px;
-
-}
-.item {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
-  border: 5px solid white;
-  padding: 10px;
-  font-size: 20px;
+.grid-item {
   text-align: center;
+  font-weight: bold;
+  color: #2980B9;
+  background-color: #D6EAF8;
+  margin: 2px;
+}
+
+h2 {
+  color: #2980B9;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
 }
